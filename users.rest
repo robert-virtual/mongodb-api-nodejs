@@ -1,0 +1,34 @@
+GET http://localhost:5000/api/users
+
+###
+
+GET http://localhost:5000/api/users/angela17
+
+###
+DELETE  http://localhost:5000/api/users/angela17
+
+###
+
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+    "username":"angela17",
+    "name":"Angela Valle",
+    "age":17,
+    "password":"castellanos12"
+  
+}
+###
+
+
+PUT  http://localhost:5000/api/users/angela17
+Content-Type: application/json
+
+{
+    "username":"angela17",
+    "name":"Angela Valle castellanos",
+    "age":17,
+    "password":"Castellano12"
+
+}

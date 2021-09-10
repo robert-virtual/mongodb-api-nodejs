@@ -1,0 +1,27 @@
+GET http://localhost:5000/api/users
+
+###
+
+GET http://localhost:5000/api/users/byid/61240d14933dc61c9c3e4ade
+
+###
+
+###
+
+GET http://localhost:5000/api/posts
+
+###
+
+
+
+###
+
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+
+{
+    "content":"segundo post",
+    "user":"61240d14933dc61c9c3e4ade"
+  
+}
+###
